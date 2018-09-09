@@ -10,7 +10,7 @@ class App extends Component {
     }
   }
 
-  //// This can go here, but logically belongs within render() 
+  //// This can go here, but logically belongs in render()
   // foodsToDisplay() {
   //   return this.state.foods.map((elem,i) => {
   //     return (
@@ -18,8 +18,8 @@ class App extends Component {
   //     )
   //   });
   // } 
-  //// and replace line 37 with its function call:  
-  // {/* <div> { this.foodsToDisplay() } </div> */}
+  //// If it goes here, then you must modify & invoke this line within render's return: 
+  // <div> { this.foodsToDisplay() } </div> 
 
   
   render() {

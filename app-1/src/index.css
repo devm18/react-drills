@@ -3,3 +3,15 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.input {
+  padding: 1vh; 
+  font-size: 3vh;
+}
+
+.output {
+  padding: 1vh; 
+  color: blue; 
+  font-size: 3vh;
+  
+}
